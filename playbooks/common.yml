@@ -7,7 +7,7 @@
   tasks:
   - name: Update and upgrade packages for RedHat Servers
     yum: 
-      name: *
+      name: '*'
       state: latest
   - name: ensure wireshark is at the latest version
     yum:
