@@ -28,6 +28,11 @@
       path: /var/www
       state: directory
       mode: "u=rw,g=wx,o=rwx"
+  - name: Create file inside /var/www directory
+    ansible.builtin.file:
+      path: /var/www/wale.txt
+      state: directory
+      mode: "u=rw,g=wx,o=rwx"
 
 - name: update db and lb server
   hosts: lb, db
