@@ -25,9 +25,9 @@
   tasks:
   - name: Create /var/www on webservers
      ansible.builtin.file:
-     path: /var/www
-     state: directory
-     mode: "u=rw,g=wx,o=rwx"
+       path: /var/www
+       state: directory
+       mode: "u=rw,g=wx,o=rwx"
 
 - name: update db and lb server
   hosts: lb, db
