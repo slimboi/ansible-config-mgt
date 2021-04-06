@@ -31,8 +31,9 @@
   - name: Create file inside /var/www directory
     ansible.builtin.file:
       path: /var/www/wale.txt
-      state: directory
+      state: file
       mode: "u=rw,g=wx,o=rwx"
+      owner: ec2-user
 
 - name: update db and lb server
   hosts: lb, db
