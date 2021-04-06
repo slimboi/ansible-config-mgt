@@ -33,7 +33,6 @@
       path: /var/www/wale.txt
       state: touch
       mode: "u=rw,g=wx,o=rwx"
-      owner: ec2-user
 
 - name: update db and lb server
   hosts: lb, db
