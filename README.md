@@ -2,7 +2,7 @@
 
 This is a simple Ansible playbook whose main purpose is to update the indexes for both Redhat 8 and Ubuntu 20.04 linux distos.
 
-It then sets the timezone to Europe/London, and then installs wireshark on all the servers.
+It sets the timezone to Europe/London, and then installs wireshark on all the servers.
 
 Finally, it creates a www directory in /var on my webservers, and then creates a sample file inside of this directory.
 
