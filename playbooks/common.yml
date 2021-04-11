@@ -23,7 +23,7 @@
   become: yes
   become_user: root
   tasks:
-  - name: Create /var/www on webservers
+  - name: Create /var/www directory on webservers
     ansible.builtin.file:
       path: /var/www
       state: directory
