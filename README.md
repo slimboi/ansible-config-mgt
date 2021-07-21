@@ -3,7 +3,7 @@
 # Intro
 This project provides a basic walkthrough for configuration management using Ansible on AWS EC2 instances. My infrastructure consists of:
 - 3 Redhat 8 Instances
-- 2 Ubuntu 20.04 Instance
+- 2 Ubuntu 20.04 Instances
 # Usage
 Before running this playbook, I defined my target servers in the dev.yml file located in the Inventory folder. I used AWS EC2 instances for this project, so i also specified the path to my ssh private key in the dev.yml file. Below are tasks included with this playbook:
 
