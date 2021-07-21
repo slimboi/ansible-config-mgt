@@ -33,10 +33,10 @@
       path: "/var/www/wale.txt"
     register: file_exists
   - name: Create file inside /var/www directory if it doesn't exist
-      file:
-        path: "/var/www/wale.txt"
-        state: touch
-      when: not file_exists.stat.exists
+    ansible.builtin.file:
+      path: "/var/www/wale.txt"
+      state: touch
+    when: not file_exists.stat.exists
 
 - name: update db and lb server
   hosts: lb, db
