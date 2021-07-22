@@ -1,7 +1,7 @@
 # ansible-config-mgt
 
 # Intro
-This project provides a basic walkthrough for configuration management using Ansible on AWS EC2 instances. My infrastructure consists of:
+This project provides a basic walkthrough for configuration management using Ansible on AWS EC2 instances. My infrastructure will consists of:
 - 3 Redhat 8 Instances
 - 2 Ubuntu 20.04 Instances
 # Usage
