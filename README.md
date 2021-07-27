@@ -16,4 +16,3 @@ Before running this playbook, I defined my target servers in the dev.yml file lo
 # Challenge
 Everytime I run the script, the sample files seems to be recreated afresh. I need to find a way to stop this from happening.
 Resolved the challenge by including a task which checks if the file already exists, and then skips creating a new file once it finds the file already exists on the webservers.
-
