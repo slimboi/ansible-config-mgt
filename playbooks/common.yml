@@ -1,4 +1,4 @@
- ---
+---
 - name: update web and nfs servers
   hosts: webservers, nfs
   remote_user: ec2-user
