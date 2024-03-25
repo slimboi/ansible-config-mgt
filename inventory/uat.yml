@@ -17,5 +17,5 @@ db01
 lb01
 
 [all:vars]
-ansible_ssh_private_key_file=monitoring.pem
+ansible_ssh_private_key_file=/home/ubuntu/monitoring.pem
 
